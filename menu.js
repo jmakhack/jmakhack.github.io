@@ -1,5 +1,5 @@
 var menu_state = {
-  create: = function() {
+  create: function() {
     var space_key = this.game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
     space_key.onDown.add(this.start, this);
     var style = { font: "30px Arial", fill: "#ffffff" };
